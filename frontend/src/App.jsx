@@ -2,7 +2,7 @@ import React from 'react'
 import ReservationForm from './Components/ReservationForm'
 import { ToastContainer } from 'react-toastify'
 
-export const backendUrl ='http://localhost:4000'
+export const backendUrl ="https://stellar-backend-zp1l.onrender.com"
 
 const App = () => {
   return (

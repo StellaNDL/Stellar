@@ -2,7 +2,7 @@ import React from 'react'
 import AdminTable from './Components/AdminTable'
 import {ToastContainer, toast} from 'react-toastify'
 
-export const backendUrl ='http://localhost:4000'
+export const backendUrl ="https://stellar-backend-zp1l.onrender.com'
 
 const App = () => {
   return (

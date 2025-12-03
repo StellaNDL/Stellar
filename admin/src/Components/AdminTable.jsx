@@ -11,7 +11,7 @@ const AdminTable = () => {
 
     const handleDelete = async (id) => {
         try {
-            await axios.delete(`${backendUrl}/api/reservations/delete${id}`)
+            await axios.delete(`${backendUrl}/api/reservations/delete/${id}`)
             toast.success('Reservation deleted successfully!')
             setReservations(prev => prev.filter(res => res._id !== id))
         } catch (error) {
